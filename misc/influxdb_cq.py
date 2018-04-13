@@ -7,7 +7,7 @@ import yaml
 
 import influxdb
 
-PROMETHEUS_DB = 'prometheus'
+prometheus_DB = 'prometheus'
 TRENDING_DB = 'trending'
 INTERVALS = ['5m', '1h']
 
@@ -41,26 +41,26 @@ def main():
     parser.add_option('--drop-db', action='store_true', default=False, help='Drop trending db')
     options, _ = parser.parse_args()
 
-    client = influxdb.InfluxDBClient('localhost', 8086, 'root', 'root', PROMETHEUS_DB)
+    client = influxdb.InfluxDBClient('localhost', 8086, 'root', 'root', prometheus_DB)
 
     # Drop all existing CQ from prometheus db
     queries = []
     result = client.query('SHOW CONTINUOUS QUERIES;')
     for i in result.raw['series']:
-        if i['name'] == PROMETHEUS_DB and 'values' in i:
+        if i['name'] == prometheus_DB and 'values' in i:
             queries = [i[0] for i in i['values']]
 
     # Exit when --check-cq is set and CQ already exist
     if options.exit_on_cq and queries:
-        print '[%s] %s continuous queries exist.' % (PROMETHEUS_DB, len(queries))
+        print '[%s] %s continuous queries exist.' % (prometheus_DB, len(queries))
         return
 
     count = 0
     for name in queries:
-        client.query('DROP CONTINUOUS QUERY %s ON %s;' % (name, PROMETHEUS_DB))
+        client.query('DROP CONTINUOUS QUERY %s ON %s;' % (name, prometheus_DB))
         count += 1
 
-    print '[%s] Deleted %s continuous queries.' % (PROMETHEUS_DB, count)
+    print '[%s] Deleted %s continuous queries.' % (prometheus_DB, count)
 
     # Recreate trending db
     if options.drop_db:
@@ -84,7 +84,7 @@ def main():
         for metric, data in METRICS.iteritems():
             params = {'metric': metric,
                       'interval': interval,
-                      'prom_db': PROMETHEUS_DB,
+                      'prom_db': prometheus_DB,
                       'trend_db': TRENDING_DB,
                       'select': '',
                       'group': ''}
@@ -105,7 +105,7 @@ def main():
             client.query(query)
             count += 1
 
-    print '[%s] Added %s continuous queries.' % (PROMETHEUS_DB, count)
+    print '[%s] Added %s continuous queries.' % (prometheus_DB, count)
 
 
 if __name__ == '__main__':

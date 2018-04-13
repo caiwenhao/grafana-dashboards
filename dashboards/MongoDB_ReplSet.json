@@ -128,7 +128,7 @@
                         "rgba(237, 129, 40, 0.89)",
                         "rgba(50, 172, 45, 0.97)"
                     ],
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "decimals": 0,
                     "description": "Shows the role of the selected member instance (PRIMARY or SECONDARY)",
                     "editable": true,
@@ -259,7 +259,7 @@
                         "rgba(237, 129, 40, 0.89)",
                         "rgba(50, 172, 45, 0.97)"
                     ],
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "decimals": 0,
                     "description": "Shows the number of members in the replica set",
                     "editable": true,
@@ -337,7 +337,7 @@
                         "rgba(237, 129, 40, 0.89)",
                         "rgba(50, 172, 45, 0.97)"
                     ],
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "decimals": 1,
                     "description": "Shows how long ago the last election occurred",
                     "editable": true,
@@ -415,7 +415,7 @@
                         "rgba(237, 129, 40, 0.89)",
                         "rgba(50, 172, 45, 0.97)"
                     ],
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "decimals": 1,
                     "description": "Shows the current replication lag for the selected member",
                     "editable": true,
@@ -493,7 +493,7 @@
                         "rgba(237, 129, 40, 0.89)",
                         "rgba(50, 172, 45, 0.97)"
                     ],
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "decimals": 0,
                     "description": "Shows the storage engine used on the instance",
                     "editable": true,
@@ -578,7 +578,7 @@
                 {
                     "aliasColors": {},
                     "bars": false,
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "decimals": null,
                     "editable": true,
                     "error": false,
@@ -668,7 +668,7 @@
                 {
                     "aliasColors": {},
                     "bars": false,
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "decimals": null,
                     "description": "Shows the time range in the oplog and the oldest backed up operation.",
                     "editable": true,
@@ -783,7 +783,7 @@
                 {
                     "aliasColors": {},
                     "bars": false,
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "decimals": null,
                     "description": "Shows the delay between an operation occurring on the primary and that same operation getting applied on the selected member",
                     "editable": true,
@@ -875,7 +875,7 @@
                 {
                     "aliasColors": {},
                     "bars": false,
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "decimals": null,
                     "description": "Elections happen when a primary becomes unavailable. Look at this graph over longer periods (weeks or months) to determine patterns and correlate elections with other events.",
                     "editable": true,
@@ -978,7 +978,7 @@
                 {
                     "aliasColors": {},
                     "bars": false,
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "decimals": null,
                     "description": "Shows how long various members were in PRIMARY and SECONDARY roles",
                     "editable": true,
@@ -1074,7 +1074,7 @@
                 {
                     "aliasColors": {},
                     "bars": false,
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "decimals": null,
                     "description": "Shows the heartbeat return times sent by the current member to other members in the replica set.",
                     "editable": true,
@@ -1181,7 +1181,7 @@
                 {
                     "aliasColors": {},
                     "bars": false,
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "decimals": null,
                     "description": "This can show a correlation with the replication lag value",
                     "editable": true,
@@ -1274,7 +1274,7 @@
                 {
                     "aliasColors": {},
                     "bars": false,
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "decimals": null,
                     "editable": true,
                     "error": false,
@@ -1378,7 +1378,7 @@
                 {
                     "aliasColors": {},
                     "bars": false,
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "decimals": null,
                     "editable": true,
                     "error": false,
@@ -1487,7 +1487,7 @@
                 {
                     "aliasColors": {},
                     "bars": false,
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "decimals": null,
                     "editable": true,
                     "error": false,
@@ -1609,7 +1609,7 @@
                 {
                     "aliasColors": {},
                     "bars": false,
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "decimals": null,
                     "editable": true,
                     "error": false,
@@ -1701,7 +1701,7 @@
                 {
                     "aliasColors": {},
                     "bars": false,
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "decimals": null,
                     "editable": true,
                     "error": false,
@@ -1824,7 +1824,7 @@
                     "text": "auto",
                     "value": "$__auto_interval"
                 },
-                "datasource": "Prometheus",
+                "datasource": "prometheus",
                 "hide": 0,
                 "includeAll": false,
                 "label": "Interval",
@@ -1880,7 +1880,7 @@
             {
                 "allFormat": "blob",
                 "allValue": null,
-                "datasource": "Prometheus",
+                "datasource": "prometheus",
                 "hide": 0,
                 "includeAll": true,
                 "label": "Cluster",
@@ -1900,7 +1900,7 @@
             {
                 "allFormat": "glob",
                 "allValue": null,
-                "datasource": "Prometheus",
+                "datasource": "prometheus",
                 "hide": 0,
                 "includeAll": false,
                 "label": "Replica Set",
@@ -1920,7 +1920,7 @@
             {
                 "allFormat": "glob",
                 "allValue": null,
-                "datasource": "Prometheus",
+                "datasource": "prometheus",
                 "hide": 0,
                 "includeAll": false,
                 "label": "Instance",

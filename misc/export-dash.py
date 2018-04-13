@@ -40,7 +40,7 @@ def dash_cleanup(a):
     # clean up of template vars
     i = 0
     for e in a['templating']['list']:
-        a['templating']['list'][i]['datasource'] = 'Prometheus'
+        a['templating']['list'][i]['datasource'] = 'prometheus'
         if 'Amazon RDS' in a['title']:
             a['templating']['list'][i]['datasource'] = 'CloudWatch'
 
@@ -60,7 +60,7 @@ def dash_cleanup(a):
             continue
 
         for i in range(len(r['panels'])):
-            a['rows'][j]['panels'][i]['datasource'] = 'Prometheus'
+            a['rows'][j]['panels'][i]['datasource'] = 'prometheus'
             if 'Amazon RDS' in a['title']:
                 a['rows'][j]['panels'][i]['datasource'] = 'CloudWatch'
 

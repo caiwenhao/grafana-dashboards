@@ -128,7 +128,7 @@
                         "rgba(237, 129, 40, 0.89)",
                         "rgba(50, 172, 45, 0.97)"
                     ],
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "format": "none",
                     "gauge": {
                         "maxValue": 100,
@@ -215,7 +215,7 @@
                     "bars": false,
                     "dashLength": 10,
                     "dashes": false,
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "decimals": 2,
                     "description": "A gauge is a metric that represents a single numerical value that can arbitrarily go up and down.\n\nGauges are typically used for measured values like temperatures or current memory usage, but also \"counts\" that can go up and down, like the number of running goroutines.",
                     "editable": true,
@@ -327,7 +327,7 @@
                     "bars": false,
                     "dashLength": 10,
                     "dashes": false,
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "decimals": 2,
                     "description": "A counter is a cumulative metric that represents a single numerical value that only ever goes up. A counter is typically used to count requests served, tasks completed, errors occurred, etc. Counters should not be used to expose current counts of items whose number can also go down, e.g. the number of currently running goroutines. Use gauges for this use case.",
                     "editable": true,
@@ -426,7 +426,7 @@
             "panels": [
                 {
                     "columns": [],
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "fontSize": "100%",
                     "id": 8,
                     "links": [],
@@ -497,7 +497,7 @@
                     "text": "go_memstats_alloc_bytes",
                     "value": "go_memstats_alloc_bytes"
                 },
-                "datasource": "Prometheus",
+                "datasource": "prometheus",
                 "hide": 0,
                 "includeAll": false,
                 "label": null,
@@ -523,7 +523,7 @@
                     "text": "auto",
                     "value": "$__auto_interval"
                 },
-                "datasource": "Prometheus",
+                "datasource": "prometheus",
                 "hide": 0,
                 "includeAll": false,
                 "label": "Interval",
@@ -580,7 +580,7 @@
             {
                 "allFormat": "pipe",
                 "allValue": null,
-                "datasource": "Prometheus",
+                "datasource": "prometheus",
                 "hide": 0,
                 "includeAll": true,
                 "label": "Host",

@@ -121,7 +121,7 @@
                 {
                     "aliasColors": {},
                     "bars": false,
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "decimals": 2,
                     "editable": true,
                     "error": false,
@@ -204,7 +204,7 @@
                 {
                     "aliasColors": {},
                     "bars": false,
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "decimals": 2,
                     "editable": true,
                     "error": false,
@@ -298,7 +298,7 @@
                 {
                     "aliasColors": {},
                     "bars": false,
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "decimals": 2,
                     "editable": true,
                     "error": false,
@@ -380,7 +380,7 @@
                 {
                     "aliasColors": {},
                     "bars": false,
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "decimals": 2,
                     "editable": true,
                     "error": false,
@@ -474,7 +474,7 @@
                 {
                     "aliasColors": {},
                     "bars": false,
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "decimals": 2,
                     "editable": true,
                     "error": false,
@@ -556,7 +556,7 @@
                 {
                     "aliasColors": {},
                     "bars": false,
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "decimals": 2,
                     "editable": true,
                     "error": false,
@@ -649,7 +649,7 @@
             "panels": [
                 {
                     "content": "These graphs are available only for [Percona Server](https://www.percona.com/doc/percona-server/5.6/diagnostics/user_stats.html) and [MariaDB](https://mariadb.com/kb/en/mariadb/user-statistics/) and require `userstat` variable turned on.",
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "editable": true,
                     "error": false,
                     "height": "50px",
@@ -689,7 +689,7 @@
                     "text": "auto",
                     "value": "$__auto_interval"
                 },
-                "datasource": "Prometheus",
+                "datasource": "prometheus",
                 "hide": 0,
                 "includeAll": false,
                 "label": "Interval",
@@ -745,7 +745,7 @@
             {
                 "allFormat": "glob",
                 "allValue": null,
-                "datasource": "Prometheus",
+                "datasource": "prometheus",
                 "hide": 0,
                 "includeAll": false,
                 "label": "Host",

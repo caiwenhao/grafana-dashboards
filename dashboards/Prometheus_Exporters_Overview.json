@@ -128,7 +128,7 @@
                         "rgba(237, 129, 40, 0.89)",
                         "rgba(245, 54, 54, 0.9)"
                     ],
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "decimals": 1,
                     "editable": true,
                     "error": false,
@@ -209,7 +209,7 @@
                         "rgba(237, 129, 40, 0.89)",
                         "rgba(245, 54, 54, 0.9)"
                     ],
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "decimals": 0,
                     "editable": true,
                     "error": false,
@@ -290,7 +290,7 @@
                         "rgba(237, 129, 40, 0.89)",
                         "rgba(245, 54, 54, 0.9)"
                     ],
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "decimals": 0,
                     "editable": true,
                     "error": false,
@@ -371,7 +371,7 @@
                         "rgba(237, 129, 40, 0.89)",
                         "rgba(245, 54, 54, 0.9)"
                     ],
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "decimals": 0,
                     "editable": true,
                     "error": false,
@@ -448,7 +448,7 @@
             "repeatIteration": null,
             "repeatRowId": null,
             "showTitle": true,
-            "title": "Prometheus Exporters Summary",
+            "title": "prometheus Exporters Summary",
             "titleSize": "h6"
         },
         {
@@ -460,7 +460,7 @@
                     "bars": false,
                     "dashLength": 10,
                     "dashes": false,
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "decimals": 2,
                     "fill": 1,
                     "id": 1613,
@@ -541,7 +541,7 @@
                     "bars": false,
                     "dashLength": 10,
                     "dashes": false,
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "decimals": 2,
                     "fill": 1,
                     "id": 1914,
@@ -622,7 +622,7 @@
             "repeatIteration": null,
             "repeatRowId": null,
             "showTitle": true,
-            "title": "Prometheus Exporters Resource Usage by Host",
+            "title": "prometheus Exporters Resource Usage by Host",
             "titleSize": "h6"
         },
         {
@@ -634,7 +634,7 @@
                     "bars": false,
                     "dashLength": 10,
                     "dashes": false,
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "decimals": 2,
                     "fill": 1,
                     "id": 1915,
@@ -715,7 +715,7 @@
                     "bars": false,
                     "dashLength": 10,
                     "dashes": false,
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "decimals": 2,
                     "fill": 1,
                     "id": 2216,
@@ -796,7 +796,7 @@
             "repeatIteration": null,
             "repeatRowId": null,
             "showTitle": true,
-            "title": "Prometheus Resource usage by Type",
+            "title": "prometheus Resource usage by Type",
             "titleSize": "h6"
         },
         {
@@ -832,7 +832,7 @@
                         "rgba(237, 129, 40, 0.89)",
                         "rgba(245, 54, 54, 0.9)"
                     ],
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "decimals": null,
                     "editable": true,
                     "error": false,
@@ -850,11 +850,11 @@
                     "links": [
                         {
                             "dashUri": "db/prometheus-exporter-status",
-                            "dashboard": "Prometheus Exporter Status",
+                            "dashboard": "prometheus Exporter Status",
                             "includeVars": true,
                             "keepTime": true,
                             "targetBlank": true,
-                            "title": "Prometheus Exporter Status",
+                            "title": "prometheus Exporter Status",
                             "type": "dashboard"
                         }
                     ],
@@ -923,7 +923,7 @@
                         "rgba(237, 129, 40, 0.89)",
                         "rgba(245, 54, 54, 0.9)"
                     ],
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "decimals": 0,
                     "editable": true,
                     "error": false,
@@ -941,11 +941,11 @@
                     "links": [
                         {
                             "dashUri": "db/prometheus-exporter-status",
-                            "dashboard": "Prometheus Exporter Status",
+                            "dashboard": "prometheus Exporter Status",
                             "includeVars": true,
                             "keepTime": true,
                             "targetBlank": true,
-                            "title": "Prometheus Exporter Status",
+                            "title": "prometheus Exporter Status",
                             "type": "dashboard"
                         }
                     ],
@@ -1014,7 +1014,7 @@
                         "rgba(237, 129, 40, 0.89)",
                         "rgba(245, 54, 54, 0.9)"
                     ],
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "decimals": 0,
                     "editable": true,
                     "error": false,
@@ -1032,11 +1032,11 @@
                     "links": [
                         {
                             "dashUri": "db/prometheus-exporter-status",
-                            "dashboard": "Prometheus Exporter Status",
+                            "dashboard": "prometheus Exporter Status",
                             "includeVars": true,
                             "keepTime": true,
                             "targetBlank": true,
-                            "title": "Prometheus Exporter Status",
+                            "title": "prometheus Exporter Status",
                             "type": "dashboard"
                         }
                     ],
@@ -1105,7 +1105,7 @@
                         "rgba(237, 129, 40, 0.89)",
                         "rgba(50, 172, 45, 0.97)"
                     ],
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "decimals": 2,
                     "editable": true,
                     "error": false,
@@ -1186,7 +1186,7 @@
                         "rgba(237, 129, 40, 0.89)",
                         "rgba(50, 172, 45, 0.97)"
                     ],
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "editable": true,
                     "error": false,
                     "format": "none",
@@ -1285,7 +1285,7 @@
                     "text": "auto",
                     "value": "$__auto_interval"
                 },
-                "datasource": "Prometheus",
+                "datasource": "prometheus",
                 "hide": 0,
                 "includeAll": false,
                 "label": "Interval",
@@ -1342,7 +1342,7 @@
                 "allFormat": "glob",
                 "allValue": null,
                 "current": {},
-                "datasource": "Prometheus",
+                "datasource": "prometheus",
                 "hide": 0,
                 "includeAll": true,
                 "label": "Host",
@@ -1400,6 +1400,6 @@
         "type": "timepicker"
     },
     "timezone": "browser",
-    "title": "Prometheus Exporters Overview",
+    "title": "prometheus Exporters Overview",
     "version": 13
 }

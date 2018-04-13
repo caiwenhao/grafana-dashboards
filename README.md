@@ -1,6 +1,6 @@
-## Grafana dashboards for MySQL and MongoDB monitoring using Prometheus [![Build Status](https://travis-ci.org/percona/grafana-dashboards.svg?branch=master)](https://travis-ci.org/percona/grafana-dashboards)
+## Grafana dashboards for MySQL and MongoDB monitoring using prometheus [![Build Status](https://travis-ci.org/percona/grafana-dashboards.svg?branch=master)](https://travis-ci.org/percona/grafana-dashboards)
 
-This is a set of Grafana dashboards for database and system monitoring using Prometheus datasource.
+This is a set of Grafana dashboards for database and system monitoring using prometheus datasource.
 
  * Amazon RDS OS metrics (CloudWatch datasource)
  * Cross Server Graphs
@@ -24,7 +24,7 @@ This is a set of Grafana dashboards for database and system monitoring using Pro
  * MySQL User Statistics
  * PXC/Galera Cluster Overview
  * PXC/Galera Graphs
- * Prometheus
+ * prometheus
  * ProxySQL Overview
  * Summary Dashboard
  * System Overview
@@ -38,11 +38,11 @@ Live demo is available at https://pmmdemo.percona.com/graph/
 
 #### Add datasource in Grafana
 
-The datasource should be named `Prometheus` so it is automatically picked up by the graphs.
+The datasource should be named `prometheus` so it is automatically picked up by the graphs.
 
 ![image](assets/datasource.png)
 
-#### Prometheus config
+#### prometheus config
 
 The dashboards use built-in `instance` label to filter on individual hosts.
 It is recommended you give the good names to your instances. Here is some example:
@@ -66,7 +66,7 @@ It is recommended you give the good names to your instances. Here is some exampl
             labels:
               instance: db1
 
-How you name jobs is not important. However, "Prometheus" dashboard assumes the job name is `prometheus`.
+How you name jobs is not important. However, "prometheus" dashboard assumes the job name is `prometheus`.
 
 #### Exporter options
 

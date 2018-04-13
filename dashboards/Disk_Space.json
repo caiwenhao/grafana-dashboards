@@ -124,7 +124,7 @@
                         "Used (device /dev/xvda1, ext4)": "#BA43A9"
                     },
                     "bars": false,
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "decimals": 2,
                     "editable": true,
                     "error": false,
@@ -224,7 +224,7 @@
             "panels": [
                 {
                     "content": "`Disk Space` -  Amount of disk space used and available on various mount points.  Running out of disk space on OS volume,  database volume or volume used for temporary space can cause downtime.   Some storage may also have reduced performance when small amount of space is available.\n",
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "editable": true,
                     "error": false,
                     "height": "50px",
@@ -243,7 +243,7 @@
                         "Used (device /dev/xvda1, ext4)": "#BA43A9"
                     },
                     "bars": false,
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "decimals": 2,
                     "editable": true,
                     "error": false,
@@ -362,7 +362,7 @@
                         "Used (device /dev/xvda1, ext4)": "#BA43A9"
                     },
                     "bars": false,
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "decimals": 2,
                     "editable": true,
                     "error": false,
@@ -504,7 +504,7 @@
                     "text": "auto",
                     "value": "$__auto_interval"
                 },
-                "datasource": "Prometheus",
+                "datasource": "prometheus",
                 "hide": 0,
                 "includeAll": false,
                 "label": "Interval",
@@ -560,7 +560,7 @@
             {
                 "allFormat": "glob",
                 "allValue": null,
-                "datasource": "Prometheus",
+                "datasource": "prometheus",
                 "hide": 0,
                 "includeAll": false,
                 "label": "Host",
@@ -580,7 +580,7 @@
             {
                 "allFormat": "wildcard",
                 "allValue": null,
-                "datasource": "Prometheus",
+                "datasource": "prometheus",
                 "hide": 2,
                 "hideLabel": false,
                 "includeAll": true,

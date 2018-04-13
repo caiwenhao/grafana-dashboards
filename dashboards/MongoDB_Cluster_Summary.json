@@ -127,7 +127,7 @@
                         "rgba(237, 129, 40, 0.89)",
                         "rgba(50, 172, 45, 0.97)"
                     ],
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "decimals": 0,
                     "editable": true,
                     "error": false,
@@ -202,7 +202,7 @@
                         "rgba(237, 129, 40, 0.89)",
                         "rgba(50, 172, 45, 0.97)"
                     ],
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "decimals": 0,
                     "editable": true,
                     "error": false,
@@ -277,7 +277,7 @@
                         "rgba(237, 129, 40, 0.89)",
                         "rgba(50, 172, 45, 0.97)"
                     ],
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "decimals": 0,
                     "editable": true,
                     "error": false,
@@ -352,7 +352,7 @@
                         "rgba(237, 129, 40, 0.89)",
                         "rgba(50, 172, 45, 0.97)"
                     ],
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "decimals": 0,
                     "editable": true,
                     "error": false,
@@ -439,7 +439,7 @@
                         "rgba(237, 129, 40, 0.89)",
                         "rgba(50, 172, 45, 0.97)"
                     ],
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "decimals": 0,
                     "editable": true,
                     "error": false,
@@ -514,7 +514,7 @@
                         "rgba(237, 129, 40, 0.89)",
                         "rgba(50, 172, 45, 0.97)"
                     ],
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "decimals": null,
                     "editable": true,
                     "error": false,
@@ -600,7 +600,7 @@
                         "rgba(237, 129, 40, 0.89)",
                         "rgba(50, 172, 45, 0.97)"
                     ],
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "decimals": 0,
                     "editable": true,
                     "error": false,
@@ -692,7 +692,7 @@
                 {
                     "aliasColors": {},
                     "bars": false,
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "editable": true,
                     "error": false,
                     "fill": 2,
@@ -785,7 +785,7 @@
                 {
                     "aliasColors": {},
                     "bars": false,
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "editable": true,
                     "error": false,
                     "fill": 2,
@@ -862,7 +862,7 @@
                 {
                     "aliasColors": {},
                     "bars": false,
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "editable": true,
                     "error": false,
                     "fill": 2,
@@ -951,7 +951,7 @@
                 {
                     "aliasColors": {},
                     "bars": false,
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "decimals": null,
                     "editable": true,
                     "error": false,
@@ -1032,7 +1032,7 @@
                 {
                     "aliasColors": {},
                     "bars": false,
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "decimals": 0,
                     "editable": true,
                     "error": false,
@@ -1124,7 +1124,7 @@
                 {
                     "aliasColors": {},
                     "bars": false,
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "decimals": null,
                     "editable": true,
                     "error": false,
@@ -1224,7 +1224,7 @@
                 {
                     "aliasColors": {},
                     "bars": false,
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "decimals": null,
                     "editable": true,
                     "error": false,
@@ -1317,7 +1317,7 @@
                 {
                     "aliasColors": {},
                     "bars": false,
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "editable": true,
                     "error": false,
                     "fill": 6,
@@ -1399,7 +1399,7 @@
                 {
                     "aliasColors": {},
                     "bars": false,
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "decimals": null,
                     "editable": true,
                     "error": false,
@@ -1493,7 +1493,7 @@
                 {
                     "aliasColors": {},
                     "bars": false,
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "editable": true,
                     "error": false,
                     "fill": 2,
@@ -1574,7 +1574,7 @@
                 {
                     "aliasColors": {},
                     "bars": false,
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "editable": true,
                     "error": false,
                     "fill": 2,
@@ -1667,7 +1667,7 @@
                 {
                     "aliasColors": {},
                     "bars": false,
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "editable": true,
                     "error": false,
                     "fill": 2,
@@ -1747,7 +1747,7 @@
                 {
                     "aliasColors": {},
                     "bars": false,
-                    "datasource": "Prometheus",
+                    "datasource": "prometheus",
                     "editable": true,
                     "error": false,
                     "fill": 2,
@@ -1852,7 +1852,7 @@
                     "text": "auto",
                     "value": "$__auto_interval"
                 },
-                "datasource": "Prometheus",
+                "datasource": "prometheus",
                 "hide": 0,
                 "includeAll": false,
                 "label": "Interval",
@@ -1908,7 +1908,7 @@
             {
                 "allFormat": "glob",
                 "allValue": null,
-                "datasource": "Prometheus",
+                "datasource": "prometheus",
                 "hide": 0,
                 "includeAll": false,
                 "label": "Cluster",

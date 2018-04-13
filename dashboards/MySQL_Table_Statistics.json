@@ -135,7 +135,7 @@
                     "value": "current"
                 }
             ],
-            "datasource": "Prometheus",
+            "datasource": "prometheus",
             "editable": true,
             "error": false,
             "fontSize": "100%",
@@ -194,7 +194,7 @@
                     "value": "current"
                 }
             ],
-            "datasource": "Prometheus",
+            "datasource": "prometheus",
             "editable": true,
             "error": false,
             "fontSize": "100%",
@@ -267,7 +267,7 @@
             "bars": false,
             "dashLength": 10,
             "dashes": false,
-            "datasource": "Prometheus",
+            "datasource": "prometheus",
             "decimals": 2,
             "editable": true,
             "error": false,
@@ -372,7 +372,7 @@
                     "value": "current"
                 }
             ],
-            "datasource": "Prometheus",
+            "datasource": "prometheus",
             "editable": true,
             "error": false,
             "fontSize": "100%",
@@ -440,7 +440,7 @@
         },
         {
             "content": "The next two graphs are available only for [Percona Server](https://www.percona.com/doc/percona-server/5.6/diagnostics/user_stats.html) and [MariaDB](https://mariadb.com/kb/en/mariadb/user-statistics/) and require `userstat` variable turned on.",
-            "datasource": "Prometheus",
+            "datasource": "prometheus",
             "editable": true,
             "error": false,
             "gridPos": {
@@ -477,7 +477,7 @@
             "bars": false,
             "dashLength": 10,
             "dashes": false,
-            "datasource": "Prometheus",
+            "datasource": "prometheus",
             "decimals": 2,
             "editable": true,
             "error": false,
@@ -584,7 +584,7 @@
             "bars": false,
             "dashLength": 10,
             "dashes": false,
-            "datasource": "Prometheus",
+            "datasource": "prometheus",
             "decimals": 2,
             "editable": true,
             "error": false,
@@ -694,7 +694,7 @@
                     "value": "current"
                 }
             ],
-            "datasource": "Prometheus",
+            "datasource": "prometheus",
             "editable": true,
             "error": false,
             "fontSize": "100%",
@@ -769,7 +769,7 @@
                     "text": "auto",
                     "value": "$__auto_interval_interval"
                 },
-                "datasource": "Prometheus",
+                "datasource": "prometheus",
                 "hide": 0,
                 "includeAll": false,
                 "label": "Interval",
@@ -826,7 +826,7 @@
                 "allFormat": "glob",
                 "allValue": null,
                 "current": {},
-                "datasource": "Prometheus",
+                "datasource": "prometheus",
                 "hide": 0,
                 "includeAll": false,
                 "label": "Host",
